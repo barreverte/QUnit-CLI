@@ -84,6 +84,10 @@ var stop_watch = {
 	out(" PASS: " + totals.pass + "  FAIL: " + totals.fail + "  TOTAL: " + (totals.pass + totals.fail));
 	out(" Finished in " + stop_watch.elapsed_seconds() + " seconds.");
 	out("----------------------------------------");
+
+	if (totals.fail > 0) {
+		quit(1);
+	}
     };
 
     QUnit.begin = function() {
