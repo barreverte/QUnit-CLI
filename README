@@ -34,3 +34,5 @@ move or copy the quniti-cli directory under test/js.
 Then make a suite.js loading the qunit-cli js resource and the source code of your module. 
 
 Then you can run your tests with rhino : java -jar js.jar suite.js in the test/js directory.
+
+The qunit-cli/qunit.js has been modified to return a non 0 value (1) for continuous integration scripting.
