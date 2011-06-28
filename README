@@ -1,8 +1,8 @@
 QUnit-CLI
 
-Example extensions for running QUnit tests from the command line
+Example extensions for running javascript tests from the command line
 
-Examples and extensions assume use of a standalone JavaScript interpeter such as Mozilla Rhino.  QUnit.js is now downloaded as a submodule (tracking my fork).
+Examples and extensions assume use of a standalone JavaScript interpeter such as Mozilla Rhino.  QUnit.js is now downloaded as a submodule (tracking the benjaminplee qunit fork).
 
 To download and run the sample test suite using Mozilla Rhino ...
 
