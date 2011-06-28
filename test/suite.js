@@ -1,4 +1,4 @@
-load("qunit-cli/qunit-cli.js");
+load("qunit/qunit-cli.js");
 
 load("test/myLibTest.js");
 
