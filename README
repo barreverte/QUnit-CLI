@@ -23,14 +23,14 @@ For using qunit-cli in a project structure like this one :
     |       `-- myJavascriptModule.js
     `-- test
         `-- js
-            |-- qunit
+            |-- qunit-cli
             |   |-- qunit-cli.js
             |   `-- qunit.js
             |-- suite.js
             `-- testMyJavascriptModule.js
 
-copy the qunit.js (it belongs to the benjaminplee qunit fork) and the qunit-cli.js from this repo in the qunit directory under test/js.
+move or copy the quniti-cli directory under test/js.
 
-Then make a suite.js loading the qunit-cli resource and the source code of your module. 
+Then make a suite.js loading the qunit-cli js resource and the source code of your module. 
 
 Then you can run your tests with rhino : java -jar js.jar suite.js in the test/js directory.
